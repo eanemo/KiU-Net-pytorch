@@ -1,10 +1,11 @@
 import cv2
 import sys
 import glob
+import os
 from os.path import join
 
-input_dir = sys.argv[0]
-output_dir = sys.argv[1]
+input_dir = sys.argv[1]
+output_dir = sys.argv[2]
 
 files = glob.glon("*.png")
 
